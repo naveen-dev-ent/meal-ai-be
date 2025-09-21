@@ -1,0 +1,72 @@
+{
+  "users": [
+    {
+      "email": "john.doe@example.com",
+      "first_name": "John",
+      "last_name": "Doe",
+      "phone": "+1234567890",
+      "current_address": "123 Main St, New York, NY",
+      "height": 175.0,
+      "weight": 70.0,
+      "age": 30,
+      "gender": "male",
+      "diet": "non_vegetarian",
+      "password": "secure123"
+    },
+    {
+      "email": "jane.vegan@example.com",
+      "first_name": "Jane",
+      "last_name": "Green",
+      "phone": "+1987654321",
+      "current_address": "456 Oak Ave, Portland, OR",
+      "height": 165.0,
+      "weight": 58.0,
+      "age": 28,
+      "gender": "female",
+      "diet": "vegan",
+      "password": "vegan456"
+    }
+  ],
+  "stock_items": [
+    {
+      "item_name": "Organic Quinoa",
+      "category": "grains",
+      "quantity": 2.0,
+      "unit": "kg",
+      "price_per_unit": 250.0,
+      "purchase_date": "2024-01-01",
+      "expiry_date": "2024-12-31",
+      "supplier": "Organic Store",
+      "minimum_stock_level": 0.5
+    },
+    {
+      "item_name": "Fresh Spinach",
+      "category": "vegetables",
+      "quantity": 1.0,
+      "unit": "kg",
+      "price_per_unit": 60.0,
+      "purchase_date": "2024-01-01",
+      "expiry_date": "2024-01-07",
+      "supplier": "Local Farm",
+      "minimum_stock_level": 0.2
+    }
+  ],
+  "meals": [
+    {
+      "name": "Quinoa Buddha Bowl",
+      "meal_type": "lunch",
+      "ingredients": [
+        "quinoa",
+        "spinach",
+        "avocado",
+        "chickpeas"
+      ],
+      "instructions": "Cook quinoa, saut\u00e9 spinach, assemble bowl",
+      "prep_time": 20,
+      "cook_time": 25,
+      "servings": 2,
+      "calories_per_serving": 420,
+      "scheduled_for": "2024-01-01"
+    }
+  ]
+}
